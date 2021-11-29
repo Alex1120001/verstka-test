@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+.wrap{
+    min-width: 320px;
+    background-image: url('../ImagesPack/Brick.jpg');
+    padding-bottom: 40px;
+}
+header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+header h2{
+    color: rgb(214, 155, 78);
+    text-shadow: rgb(0, 0, 0) 1px 0px, rgb(0, 0, 0) 1px 1px, rgb(0, 0, 0) 0px 1px, rgb(0, 0, 0) -1px 1px, rgb(0, 0, 0) -1px 0px, rgb(0, 0, 0) -1px -1px, rgb(0, 0, 0) 0px -1px, rgb(0, 0, 0) 1px -1px;
+    text-transform: uppercase;
+    text-shadow: 5px 5px #000000;
+}
+.menu-header{
+    margin-top: 20px;
+}
+.menu-header span{
+    background-image: url('../ImagesPack/Button_Purple.png');
+    padding: 10px;
+    background-position: center;
+    border: 3px solid rgb(85, 8, 85);
+}
+.menu-header span:hover{
+    background-image: url('../ImagesPack/Button_Yellow.png');
+}
+.menu-header span a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#fff;
+    text-shadow: rgb(0, 0, 0) 1px 0px, rgb(0, 0, 0) 1px 1px, rgb(0, 0, 0) 0px 1px, rgb(0, 0, 0) -1px 1px, rgb(0, 0, 0) -1px 0px, rgb(0, 0, 0) -1px -1px, rgb(0, 0, 0) 0px -1px, rgb(0, 0, 0) 1px -1px;
+}
+.block{
+    border: 3px solid rgb(85, 8, 85);
+    width: 90%;
+    margin: auto;
+    max-width: 600px;
+    background-color: rgb(181, 121, 43);
+}
+
+.block h3{
+    text-transform: uppercase;
+    padding: 10px 0px 0px 10px;
+    color:#fff;
+    text-shadow: rgb(0, 0, 0) 1px 0px, rgb(0, 0, 0) 1px 1px, rgb(0, 0, 0) 0px 1px, rgb(0, 0, 0) -1px 1px, rgb(0, 0, 0) -1px 0px, rgb(0, 0, 0) -1px -1px, rgb(0, 0, 0) 0px -1px, rgb(0, 0, 0) 1px -1px;
+}
+.block p{
+    text-transform: uppercase;
+    padding: 10px 0px 0px 10px;
+    color:#fff;
+    line-height: 22px;
+    text-shadow: rgb(0, 0, 0) 1px 0px, rgb(0, 0, 0) 1px 1px, rgb(0, 0, 0) 0px 1px, rgb(0, 0, 0) -1px 1px, rgb(0, 0, 0) -1px 0px, rgb(0, 0, 0) -1px -1px, rgb(0, 0, 0) 0px -1px, rgb(0, 0, 0) 1px -1px;
+}
+.img-btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-btn{
+    padding-right: 10px;
+}
+#edit-btn{
+    border: 3px solid rgb(85, 8, 85);
+    background-image:url('../ImagesPack/Button_Blue.png');
+    text-shadow: rgb(0, 0, 0) 1px 0px, rgb(0, 0, 0) 1px 1px, rgb(0, 0, 0) 0px 1px, rgb(0, 0, 0) -1px 1px, rgb(0, 0, 0) -1px 0px, rgb(0, 0, 0) -1px -1px, rgb(0, 0, 0) 0px -1px, rgb(0, 0, 0) 1px -1px;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#del-btn{
+    text-shadow: rgb(0, 0, 0) 1px 0px, rgb(0, 0, 0) 1px 1px, rgb(0, 0, 0) 0px 1px, rgb(0, 0, 0) -1px 1px, rgb(0, 0, 0) -1px 0px, rgb(0, 0, 0) -1px -1px, rgb(0, 0, 0) 0px -1px, rgb(0, 0, 0) 1px -1px;
+    color:#fff;
+    border: 3px solid rgb(85, 8, 85);
+    background-image:url('../ImagesPack/Button_Purple.png');
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.block+.block{
+    margin-top: 20px;
+}
