@@ -4,7 +4,8 @@ body, html{
     color:#fff;
 }
 .wrap{
-    min-height: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 .form-log{
     max-width: 700px;
@@ -32,14 +33,23 @@ input:first-child{
 .text-block p+p{
     margin-top: 26px;
 }
+.wrap-black-back{
+    max-width: 700px;
+    background-color:rgba(0,0,0,0.3);
+    margin: auto;
+    min-height: 100%;
+    margin-bottom: 600px;
+}
 form button{
     margin: 20px auto;
     display: flex;
-    background-image:url('/ImagesPack/Button_Green.png');
+    background-image:url('../ImagesPack/Button_Green.png');
     padding: 5px;
     text-transform: uppercase;
+    border:3px solid rgb(66, 52, 85);
     text-shadow: rgb(0, 0, 0) 1px 0px, rgb(0, 0, 0) 1px 1px, rgb(0, 0, 0) 0px 1px, rgb(0, 0, 0) -1px 1px, rgb(0, 0, 0) -1px 0px, rgb(0, 0, 0) -1px -1px, rgb(0, 0, 0) 0px -1px, rgb(0, 0, 0) 1px -1px;
     color:#fff;
+    border-radius:4px;
 }
 form input{
     background-color: rgba(0, 0, 0, 0.5);
@@ -78,7 +88,7 @@ form textarea{
 .info{
     text-transform: uppercase;
     padding: 5px;
-    background-color:rgb(103, 118, 124);
+    background-color:rgb(85, 111, 99);
     border:4px solid rgb(66,52,85);
     border-radius: 5px;
     font-size: 12px;
@@ -89,7 +99,7 @@ form textarea{
     margin-top: 10px;
     text-transform: uppercase;
     padding: 5px;
-    background-color:rgb(103, 118, 124);
+    background-color:rgb(85, 111, 99);
     border:4px solid rgb(66,52,85);
     height: 80px;
 }
